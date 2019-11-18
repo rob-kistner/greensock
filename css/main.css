@@ -1,0 +1,46 @@
+/* reset */
+
+*, *::before, *::after {
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-sizing: border-box;
+  outline: none;
+  vertical-align: baseline;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+footer, header, hgroup, menu, nav, section, small {
+  display: block;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+
+/* main */
+
+.block {
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100px;
+}
+
+#red { background-color: #a00; left: 0px;  }
+#green { background-color: #0a0; left: 400px; }
+#blue { background-color: #00a; top: 400px; left: 400px; }
+
+#bigBox {
+  background-color: #666;
+  top: 100px;
+  left: 100px;
+  width: 300px;
+  height: 300px;
+  opacity: 0;
+}
