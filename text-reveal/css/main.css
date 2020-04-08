@@ -1,0 +1,40 @@
+/* text initial formatting */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  margin: 0;
+}
+
+.wrapper {
+  position: relative;
+  /* background-color: #eee; */
+  margin-top: 2rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  overflow: hidden;
+}
+
+#line {
+  position: absolute;
+  top: -80px;
+  width: 3px;
+  height: 80px;
+  background-color: #777;
+}
+#txt1, #txt2, #txt3 {
+  color: #7f7f7f;
+  margin: 0 0 0.3rem;
+}
+#txt1 {
+  margin-left: -200px;
+}
+#txt2 {
+  margin-left: -200px;
+}
+#txt3 {
+  margin-left: -200px;
+}
